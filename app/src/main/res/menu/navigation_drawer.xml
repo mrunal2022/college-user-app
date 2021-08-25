@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigation_video"
+        android:title="Video Lectures"
+        android:icon="@drawable/video"/>
+    <item android:id="@+id/navigation_ebook"
+        android:title="EBooks"
+        android:icon="@drawable/ebook"/>
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/website"/>
+<item android:id="@+id/navigation_developers"
+        android:title="Developers"
+        android:icon="@drawable/developer"/>
+
+</menu>

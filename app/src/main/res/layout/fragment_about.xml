@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/college_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bharati Vidyapeeth’s College of Engineering for Women was established in June 2000, with the collective efforts of experts having long and outstanding academic experience in the field of professional education with the mission 'Social transformation through dynamic education'. At our College, emphasis is given to train the deserving young women who have an ambition to pursue higher education in engineering and are desirous of acquiring skills to meet the demands of fast growing industries, Technical Education and research facility."
+            android:fontFamily="@string/light"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision : Women Empowerment through Technical Education"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1"
+                android:fontFamily="@string/regular"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:layout_marginTop="36dp"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/bold"/>
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:foregroundGravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:id="@+id/viewPager"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

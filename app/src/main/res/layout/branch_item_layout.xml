@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/brIcon"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/text_margin"
+                android:src="@drawable/ic_computer"/>
+
+            <TextView
+                android:id="@+id/brTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/text_margin"
+
+                android:fontFamily="@string/bold"
+                android:text="Branch"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Computer Engineering department was established in the year 2000 with intake of 60. In keeping view with the curriculum of the University of Pune, subjects like Distributed system, Network Information and Security, Artificial Intelligence and Computer Networks and Communications are taught here.The objective of the department is to impart quality education in Computer Engineering that can equip the budding engineers with right knowledge and propel them to the path of success in the country and abroad. The long term goal of the department is to harness the skills of faculty and students to create a technically sound learning environment that can be beneficial to the industry, society and in the field of technical innovation."
+            android:fontFamily="@string/light"
+            android:id="@+id/brDescription"
+
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BVCOEW User App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="aboutcollege">Bharati Vidyapeeth’s College of Engineering for Women was established in June 2000, with the collective efforts of experts having long and outstanding academic experience in the field of professional education with the mission "Social transformation through dynamic education." At our College, emphasis is given to train the deserving young women who have an ambition to pursue higher education in engineering and are desirous of acquiring skills to meet the demands of fast growing industries, Technical Education and research facility.</string>
+
+
+</resources>
